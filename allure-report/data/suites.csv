@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","32996","Login Page validation","chromium","Tue May 20 18:39:39 IST 2025","passed","Tue May 20 18:40:12 IST 2025","","Test.spec.js","",""
+"","4098","Validations","chromium","Tue May 20 18:40:13 IST 2025","passed","Tue May 20 18:40:18 IST 2025","","Test.spec.js","",""

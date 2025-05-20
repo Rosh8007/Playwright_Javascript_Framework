@@ -1,0 +1,187 @@
+{
+  "config": {
+    "configFile": "F:\\CucumberProjects\\project1\\playwright.config.js",
+    "rootDir": "F:/CucumberProjects/project1/src/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "line",
+        null
+      ],
+      [
+        "F:\\CucumberProjects\\project1\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFolder": "src/reporting/allure-results"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "src/reporting/html"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "result.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "F:/CucumberProjects/project1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "F:/CucumberProjects/project1/src/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "F:/CucumberProjects/project1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "F:/CucumberProjects/project1/src/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "F:/CucumberProjects/project1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "F:/CucumberProjects/project1/src/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.52.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Test.spec.js",
+      "file": "Test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "validation on cheout page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9510,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2025-05-20 22:08:04] [INFO]: LoginPage Testing started\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:07] [INFO]: Url assertion passed succesfully\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:08] [INFO]: Products Testing started\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:09] [INFO]: Add to cart button Successfuly clicked\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:13] [INFO]: Products Testing Ended\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:13] [INFO]: Checkout Testing started\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:13] [INFO]: Assertions on Checkout Address Page started\r\n"
+                    },
+                    {
+                      "text": "[2025-05-20 22:08:13] [INFO]: Assertions on Checkout Address Page ended\r\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-20T16:38:03.721Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "10bdccf7b992d13a366c-92c5540a915f938efe24",
+          "file": "Test.spec.js",
+          "line": 45,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-05-20T16:37:58.364Z",
+    "duration": 16190.75400000019,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

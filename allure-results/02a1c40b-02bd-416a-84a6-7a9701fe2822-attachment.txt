@@ -1,0 +1,10 @@
+[2025-05-20 22:01:05] [INFO]: LoginPage Testing started
+[2025-05-20 22:01:08] [INFO]: Url assertion passed succesfully
+[2025-05-20 22:01:09] [INFO]: Products Testing started
+[2025-05-20 22:01:11] [INFO]: Add to cart button Successfuly clicked
+[2025-05-20 22:01:14] [INFO]: Products Testing Ended
+[2025-05-20 22:01:14] [INFO]: Checkout Testing started
+
+                Your order has been successfully processed!
+            
+[2025-05-20 22:01:23] [INFO]: Checkout Testing started

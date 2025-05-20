@@ -1,0 +1,10 @@
+[2025-05-20 21:36:08] [INFO]: Assertions on Checkout Address Page started
+[2025-05-20 21:36:11] [ERROR]: Assertions on Checkout Address Page Failedexpect(locator).toBeVisible()
+
+Locator: locator('[name=\'BillingNewAddress.Company\']')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for locator('[name=\'BillingNewAddress.Company\']')
+
