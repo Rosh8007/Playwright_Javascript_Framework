@@ -1,8 +1,0 @@
-[2025-05-20 22:08:04] [INFO]: LoginPage Testing started
-[2025-05-20 22:08:07] [INFO]: Url assertion passed succesfully
-[2025-05-20 22:08:08] [INFO]: Products Testing started
-[2025-05-20 22:08:09] [INFO]: Add to cart button Successfuly clicked
-[2025-05-20 22:08:13] [INFO]: Products Testing Ended
-[2025-05-20 22:08:13] [INFO]: Checkout Testing started
-[2025-05-20 22:08:13] [INFO]: Assertions on Checkout Address Page started
-[2025-05-20 22:08:13] [INFO]: Assertions on Checkout Address Page ended

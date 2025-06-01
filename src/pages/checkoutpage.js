@@ -9,8 +9,10 @@ class checkoutpage
 
     constructor(page)
     {
+      
         this.page=page;
         this.companyName="[name='BillingNewAddress.Company']";
+        this.companynamelable="BillingNewAddress_Company";
         this.cityName="#BillingNewAddress_Address1";
         this.address2="#BillingNewAddress_Address2";
         this.zipCode="#BillingNewAddress_ZipPostalCode";
@@ -29,7 +31,7 @@ class checkoutpage
     async checkoutAddress(cmpny,city1,city2,state,zip,phone,fax)
     {
           await this.page.waitForLoadState();
-       
+          await AssertionUtilities.AssertUrl(this.page,'https://demowebshop.tricentis.com/onepagecheckout')
           await this.page.locator(this.companyName).fill(cmpny);
           await this.page.selectOption(this.countrdrpdwn,{index:41});
           await this.page.selectOption(this.statesdrpdwn,{index:0});

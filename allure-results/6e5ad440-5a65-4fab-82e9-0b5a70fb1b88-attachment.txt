@@ -25,5 +25,8 @@
 [2025-06-01 14:31:05] [INFO]: Assertions on Checkout Address Page started
 [2025-06-01 14:31:06] [INFO]: Assertions on Checkout Address Page ended
 [2025-06-01 14:31:06] [INFO]: Url assertion passed succesfully
+
+                Your order has been successfully processed!
+            
 [2025-06-01 14:31:17] [INFO]: Given Text matches Expected
 [2025-06-01 14:31:17] [INFO]: Checkout Testing started

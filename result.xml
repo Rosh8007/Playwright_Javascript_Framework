@@ -1,36 +1,39 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="24.306740000000225">
-<testsuite name="Test.spec.js" timestamp="2025-06-01T06:52:23.232Z" hostname="chromium" tests="1" failures="0" skipped="0" time="18.207" errors="0">
-<testcase name="EndToEnd User Flow &amp; Common Assertions" classname="Test.spec.js" time="18.207">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="39.57570600000024">
+<testsuite name="Test.spec.js" timestamp="2025-06-01T09:00:47.835Z" hostname="chromium" tests="1" failures="0" skipped="0" time="24.83" errors="0">
+<testcase name="EndToEnd User Flow &amp; Common Assertions" classname="Test.spec.js" time="24.83">
 <system-out>
-<![CDATA[[2025-06-01 12:22:26] [INFO]: LoginPage Testing started
-[2025-06-01 12:22:28] [INFO]: Url assertion passed succesfully
-[2025-06-01 12:22:29] [INFO]: Assertion on login btn passed
-[2025-06-01 12:22:29] [INFO]: Assertion Passed on username
-[2025-06-01 12:22:29] [INFO]: Assertion Passed on password
-[2025-06-01 12:22:29] [INFO]: Assertion on login btn passed
-[2025-06-01 12:22:30] [INFO]: LoginPage Testing started
-[2025-06-01 12:22:30] [INFO]: Products Testing started
-[2025-06-01 12:22:30] [WARN]: Element is not editable :
+<![CDATA[[2025-06-01 14:30:54] [INFO]: LoginPage Testing started
+[2025-06-01 14:30:58] [INFO]: Url assertion passed succesfully
+[2025-06-01 14:30:58] [INFO]: Assertion on login btn passed
+[2025-06-01 14:30:58] [INFO]: Assertion Passed on username
+[2025-06-01 14:30:58] [INFO]: Assertion Passed on password
+[2025-06-01 14:30:58] [INFO]: Assertion on login btn passed
+[2025-06-01 14:30:59] [INFO]: LoginPage Testing started
+[2025-06-01 14:30:59] [INFO]: Products Testing started
+[2025-06-01 14:31:00] [INFO]: Url assertion passed succesfully
+[2025-06-01 14:31:00] [WARN]: Element is not editable :
             Simple Computer
         
-[2025-06-01 12:22:30] [INFO]: Assertion on Add to productlink  Successfuly passed
-[2025-06-01 12:22:31] [INFO]: Assertion on processor are Successfuly passed
-[2025-06-01 12:22:31] [INFO]: Assertion on Add tocart  Successfuly passed
-[2025-06-01 12:22:32] [WARN]: Element is not editable :
+[2025-06-01 14:31:00] [INFO]: Assertion on Add to productlink  Successfuly passed
+[2025-06-01 14:31:02] [INFO]: Assertion on processor are Successfuly passed
+[2025-06-01 14:31:02] [INFO]: Assertion on Add tocart  Successfuly passed
+[2025-06-01 14:31:03] [WARN]: Element is not editable :
                     Shopping cart
                     (1)
                 
-[2025-06-01 12:22:32] [INFO]: Assertion on shopping cart Successfuly passed
-[2025-06-01 12:22:33] [INFO]: Assertion on zip code Successfuly passed
-[2025-06-01 12:22:33] [INFO]: Assertion on tos box Successfuly passed
-[2025-06-01 12:22:34] [INFO]: Products Testing Ended
-[2025-06-01 12:22:34] [INFO]: Checkout Testing started
-[2025-06-01 12:22:34] [INFO]: Assertions on Checkout Address Page started
-[2025-06-01 12:22:35] [INFO]: Assertions on Checkout Address Page ended
+[2025-06-01 14:31:03] [INFO]: Assertion on shopping cart Successfuly passed
+[2025-06-01 14:31:04] [INFO]: Assertion on zip code Successfuly passed
+[2025-06-01 14:31:04] [INFO]: Assertion on tos box Successfuly passed
+[2025-06-01 14:31:05] [INFO]: Products Testing Ended
+[2025-06-01 14:31:05] [INFO]: Checkout Testing started
+[2025-06-01 14:31:05] [INFO]: Assertions on Checkout Address Page started
+[2025-06-01 14:31:06] [INFO]: Assertions on Checkout Address Page ended
+[2025-06-01 14:31:06] [INFO]: Url assertion passed succesfully
 
                 Your order has been successfully processed!
             
-[2025-06-01 12:22:43] [INFO]: Checkout Testing started
+[2025-06-01 14:31:17] [INFO]: Given Text matches Expected
+[2025-06-01 14:31:17] [INFO]: Checkout Testing started
 ]]>
 </system-out>
 </testcase>

@@ -25,6 +25,8 @@ class productPage
 
     async buyingProduct()
     {
+        await this.page.waitForLoadState();
+        await AssertionUtilities.AssertUrl(this.page,"https://demowebshop.tricentis.com/")
         await this.page.waitForSelector("(//h2[@class='product-title'])[6]");
         await AssertionUtilities.BasicAssertion(this.productlink,this.page).then(()=>{
         logger.info('Assertion on Add to productlink  Successfuly passed')})

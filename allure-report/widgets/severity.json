@@ -1,1 +1,1 @@
-[{"uid":"2324e4d0234f1d66","name":"Validations","time":{"start":1747746613917,"stop":1747746618015,"duration":4098},"status":"passed","severity":"normal"},{"uid":"6f361df64971578a","name":"Login Page validation","time":{"start":1747746579879,"stop":1747746612875,"duration":32996},"status":"passed","severity":"normal"}]
+[{"uid":"6af174058d25eb3b","name":"EndToEnd User Flow & Common Assertions","time":{"start":1748768452140,"stop":1748768476970,"duration":24830},"status":"passed","severity":"normal"}]

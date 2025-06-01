@@ -1,2 +1,0 @@
-[2025-05-20 21:24:09] [INFO]: Assertions on Checkout Address Page started
-[2025-05-20 21:24:09] [INFO]: Assertions on Checkout Address Page ended

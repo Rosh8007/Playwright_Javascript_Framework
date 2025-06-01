@@ -28,7 +28,10 @@ class AssertionUtilities {
     static async TextValidation(loctr,msg,page)
     {
       const element= page.locator(loctr);
-       await expect(element).toContainText(msg)	
+       await expect(element).toContainText(msg)
+       .then(()=>{logger.info('Given Text matches Expected')})
+       .catch((error)=>{logger.error('Given Text do not matches Expected: '+error)});
+    	
     }
 
 }

@@ -126,82 +126,91 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 15,
+                  "workerIndex": 20,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 18207,
+                  "duration": 24830,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "[2025-06-01 12:22:26] [INFO]: LoginPage Testing started\r\n"
+                      "text": "[2025-06-01 14:30:54] [INFO]: LoginPage Testing started\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:28] [INFO]: Url assertion passed succesfully\r\n"
+                      "text": "[2025-06-01 14:30:58] [INFO]: Url assertion passed succesfully\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:29] [INFO]: Assertion on login btn passed\r\n"
+                      "text": "[2025-06-01 14:30:58] [INFO]: Assertion on login btn passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:29] [INFO]: Assertion Passed on username\r\n"
+                      "text": "[2025-06-01 14:30:58] [INFO]: Assertion Passed on username\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:29] [INFO]: Assertion Passed on password\r\n"
+                      "text": "[2025-06-01 14:30:58] [INFO]: Assertion Passed on password\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:29] [INFO]: Assertion on login btn passed\r\n"
+                      "text": "[2025-06-01 14:30:58] [INFO]: Assertion on login btn passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:30] [INFO]: LoginPage Testing started\r\n"
+                      "text": "[2025-06-01 14:30:59] [INFO]: LoginPage Testing started\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:30] [INFO]: Products Testing started\r\n"
+                      "text": "[2025-06-01 14:30:59] [INFO]: Products Testing started\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:30] [WARN]: Element is not editable :\n            Simple Computer\n        \r\n"
+                      "text": "[2025-06-01 14:31:00] [INFO]: Url assertion passed succesfully\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:30] [INFO]: Assertion on Add to productlink  Successfuly passed\r\n"
+                      "text": "[2025-06-01 14:31:00] [WARN]: Element is not editable :\n            Simple Computer\n        \r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:31] [INFO]: Assertion on processor are Successfuly passed\r\n"
+                      "text": "[2025-06-01 14:31:00] [INFO]: Assertion on Add to productlink  Successfuly passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:31] [INFO]: Assertion on Add tocart  Successfuly passed\r\n"
+                      "text": "[2025-06-01 14:31:02] [INFO]: Assertion on processor are Successfuly passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:32] [WARN]: Element is not editable :\n                    Shopping cart\n                    (1)\n                \r\n"
+                      "text": "[2025-06-01 14:31:02] [INFO]: Assertion on Add tocart  Successfuly passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:32] [INFO]: Assertion on shopping cart Successfuly passed\r\n"
+                      "text": "[2025-06-01 14:31:03] [WARN]: Element is not editable :\n                    Shopping cart\n                    (1)\n                \r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:33] [INFO]: Assertion on zip code Successfuly passed\r\n"
+                      "text": "[2025-06-01 14:31:03] [INFO]: Assertion on shopping cart Successfuly passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:33] [INFO]: Assertion on tos box Successfuly passed\r\n"
+                      "text": "[2025-06-01 14:31:04] [INFO]: Assertion on zip code Successfuly passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:34] [INFO]: Products Testing Ended\r\n"
+                      "text": "[2025-06-01 14:31:04] [INFO]: Assertion on tos box Successfuly passed\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:34] [INFO]: Checkout Testing started\r\n"
+                      "text": "[2025-06-01 14:31:05] [INFO]: Products Testing Ended\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:34] [INFO]: Assertions on Checkout Address Page started\r\n"
+                      "text": "[2025-06-01 14:31:05] [INFO]: Checkout Testing started\r\n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:35] [INFO]: Assertions on Checkout Address Page ended\r\n"
+                      "text": "[2025-06-01 14:31:05] [INFO]: Assertions on Checkout Address Page started\r\n"
+                    },
+                    {
+                      "text": "[2025-06-01 14:31:06] [INFO]: Assertions on Checkout Address Page ended\r\n"
+                    },
+                    {
+                      "text": "[2025-06-01 14:31:06] [INFO]: Url assertion passed succesfully\r\n"
                     },
                     {
                       "text": "\n                Your order has been successfully processed!\n            \n"
                     },
                     {
-                      "text": "[2025-06-01 12:22:43] [INFO]: Checkout Testing started\r\n"
+                      "text": "[2025-06-01 14:31:17] [INFO]: Given Text matches Expected\r\n"
+                    },
+                    {
+                      "text": "[2025-06-01 14:31:17] [INFO]: Checkout Testing started\r\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-01T06:52:25.406Z",
+                  "startTime": "2025-06-01T09:00:52.138Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -219,8 +228,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-01T06:52:20.580Z",
-    "duration": 24306.740000000224,
+    "startTime": "2025-06-01T09:00:40.805Z",
+    "duration": 39575.70600000024,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

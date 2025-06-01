@@ -1,2 +1,0 @@
-[2025-06-01 09:37:39] [INFO]: LoginPage Testing started
-[2025-06-01 09:37:41] [INFO]: Url assertion passed succesfully
