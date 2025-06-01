@@ -1,8 +1,4 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="24.306740000000225">
-<testsuite name="Test.spec.js" timestamp="2025-06-01T06:52:23.232Z" hostname="chromium" tests="1" failures="0" skipped="0" time="18.207" errors="0">
-<testcase name="EndToEnd User Flow &amp; Common Assertions" classname="Test.spec.js" time="18.207">
-<system-out>
-<![CDATA[[2025-06-01 12:22:26] [INFO]: LoginPage Testing started
+[2025-06-01 12:22:26] [INFO]: LoginPage Testing started
 [2025-06-01 12:22:28] [INFO]: Url assertion passed succesfully
 [2025-06-01 12:22:29] [INFO]: Assertion on login btn passed
 [2025-06-01 12:22:29] [INFO]: Assertion Passed on username
@@ -31,8 +27,3 @@
                 Your order has been successfully processed!
             
 [2025-06-01 12:22:43] [INFO]: Checkout Testing started
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>

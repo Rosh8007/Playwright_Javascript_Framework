@@ -14,7 +14,7 @@ class AssertionUtilities {
         await expect(element).not.toBeDisabled();
         await expect(element).toBeEditable().catch((error=>
           {
-            logger.warn('Element is not editable'+val+error)
+            logger.warn('Element is not editable :'+val)
           }));
     }
 
