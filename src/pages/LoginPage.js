@@ -5,71 +5,58 @@ const AssertionUtilities = require('../utils/AssertionUtilities');
 
 
 
+
 class LoginPage
 {
 
     constructor(page)
     {
           this.page=page;
-          this.loginlink="[href='/login']";
+          this.loginhref="Log in";
           this.username="#Email";
           this.pasword="#Password";
           this.loginbutton="[value='Log in']";
     }
 
-    async gotoLoginUrl()
+    async gotoLoginUrl(url)
     {
-      await this.page.goto("https://demowebshop.tricentis.com/");
-      await expect(this.page).toHaveURL("https://demowebshop.tricentis.com/").then(()=>
-        {
-            logger.info('Url assertion passed succesfully');
-         })
-      .catch((error)=>
-        {
-          logger.error('Application url assertion failed: '+error);
-        });
+      await this.page.goto(url);
+      await AssertionUtilities.AssertUrl(this.page,url)
       await this.page.waitForLoadState();
+      
+    }
+
+    async OpenLoginForm()
+    {
+       let loglink=await this.page.getByRole('link',{name:this.loginhref})
+         await loglink.click()
+        .then(()=>{logger.info('Assertion on login btn passed')})
+        .catch((error)=>{logger.info('Assertion in login btn failed '+error)});
+       
     }
 
     async LoginFunctionality(un,ps)
     {
-        await this.page.locator(this.loginlink).click()
+      try{
+        await AssertionUtilities.BasicAssertion(this.username,this.page)
+        .then(()=>{logger.info('Assertion Passed on username')});
         await this.page.locator(this.username).fill(un)
+        await AssertionUtilities.BasicAssertion(this.pasword,this.page)
+        .then(()=>{logger.info("Assertion Passed on password")});
         await this.page.locator(this.pasword).fill(ps)
-        await this.page.locator(this.loginbutton).click()
-
+      }
+      catch(error){logger.info('Assertion in Login Functionality '+error)}
     }
-
    
+  
 
-    async ValidationsOnLoginPage()
-    {
-        try {
-       
-          logger.info('Login  href Assertion started')
-          await   AssertionUtilities.BasicAssertion(this.loginlink,this.page)
-          logger.info('Login  href ended Assertion ended')
-         
-          await this.page.locator(this.loginlink).click().then(()=>{ logger.info('Login  href is clicked')})
-            logger.info('Login Username Assertion started')
-          await AssertionUtilities.BasicAssertion(this.username,this.page)
-            logger.info('Login Username Assertion ended')
-            logger.info('Login pasword Assertion started')
-          await AssertionUtilities.BasicAssertion(this.pasword,this.page)
-            logger.info('Login password Assertion ended')
-            logger.info('Login btn Assertion started')
-          await AssertionUtilities.BasicAssertion(this.loginbutton,this.page)
-             logger.info('Login btn Assertion ended')
-       
-             logger.info('Login page Asertion Ended')
-        } catch (error)
-        {
-          logger.error('Login Page Assertion Failed'+ error)
-        }
-       
-
-    }
-
+   async completeLogin()
+  {
+     await AssertionUtilities.BasicAssertion(this.loginbutton,this.page)
+     .then(()=>{logger.info('Assertion on login btn passed')})
+     .catch((error)=>{logger.info('Assertion in login btn failed '+error)});
+     await this.page.locator(this.loginbutton).click();
+   }
 
 
 

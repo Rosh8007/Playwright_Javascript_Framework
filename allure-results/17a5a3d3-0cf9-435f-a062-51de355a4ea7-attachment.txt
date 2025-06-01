@@ -1,0 +1,37 @@
+[2025-06-01 11:32:16] [INFO]: LoginPage Testing started
+[2025-06-01 11:32:18] [INFO]: Url assertion passed succesfully
+[2025-06-01 11:32:19] [INFO]: Assertion on login btn passed
+[2025-06-01 11:32:19] [INFO]: Assertion Passed on username
+[2025-06-01 11:32:19] [INFO]: Assertion Passed on password
+[2025-06-01 11:32:19] [INFO]: Assertion on login btn passed
+[2025-06-01 11:32:20] [INFO]: LoginPage Testing started
+[2025-06-01 11:32:20] [INFO]: Products Testing started
+[2025-06-01 11:32:20] [WARN]: Element is not editable
+            Simple Computer
+        Error: expect.toBeEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - expect.toBeEditable with timeout 5000ms
+  - waiting for locator('xpath=(//h2[@class=\'product-title\'])[6]')
+
+[2025-06-01 11:32:20] [INFO]: Assertion on Add to productlink  Successfuly passed
+[2025-06-01 11:32:21] [INFO]: Assertion on processor are Successfuly passed
+[2025-06-01 11:32:21] [INFO]: Assertion on Add tocart  Successfuly passed
+[2025-06-01 11:32:22] [WARN]: Element is not editable
+                    Shopping cart
+                    (2)
+                Error: expect.toBeEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - expect.toBeEditable with timeout 5000ms
+  - waiting for locator('//li[@id=\'topcartlink\']//a[@href=\'/cart\']')
+
+[2025-06-01 11:32:22] [INFO]: Assertion on shopping cart Successfuly passed
+[2025-06-01 11:32:23] [INFO]: Assertion on zip code Successfuly passed
+[2025-06-01 11:32:23] [INFO]: Assertion on tos box Successfuly passed
+[2025-06-01 11:32:24] [INFO]: Products Testing Ended
+[2025-06-01 11:32:24] [INFO]: Checkout Testing started
+[2025-06-01 11:32:24] [INFO]: Assertions on Checkout Address Page started
+[2025-06-01 11:32:25] [INFO]: Assertions on Checkout Address Page ended
+
+                Your order has been successfully processed!
+            
+[2025-06-01 11:32:33] [INFO]: Checkout Testing started

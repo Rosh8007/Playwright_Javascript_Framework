@@ -1,0 +1,12 @@
+[2025-06-01 08:43:29] [INFO]: LoginPage Testing started
+[2025-06-01 08:43:31] [INFO]: Url assertion passed succesfully
+[2025-06-01 08:43:33] [INFO]: Login  href Assertion started
+[2025-06-01 08:43:38] [ERROR]: Login Page Assertion FailedError: Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('[href=\'/login\']')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for locator('[href=\'/login\']')
+

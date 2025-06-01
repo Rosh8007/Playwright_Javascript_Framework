@@ -1,0 +1,18 @@
+[2025-05-20 22:17:56] [INFO]: LoginPage Testing started
+[2025-05-20 22:17:59] [INFO]: Url assertion passed succesfully
+[2025-05-20 22:18:00] [INFO]: Products Testing started
+[2025-05-20 22:18:01] [INFO]: Add to cart button Successfuly clicked
+[2025-05-20 22:18:05] [INFO]: Products Testing Ended
+[2025-05-20 22:18:05] [INFO]: Checkout Testing started
+[2025-05-20 22:18:05] [INFO]: Assertions on Checkout Address Page started
+[2025-05-20 22:18:10] [ERROR]: Assertions on Checkout Address Page FailedTimed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('[name=\'BillingNewAddress.Company\']')
+Expected: visible
+Received: hidden
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for locator('[name=\'BillingNewAddress.Company\']')
+    6 × locator resolved to <input value="" type="text" class="text-box single-line" id="BillingNewAddress_Company" name="BillingNewAddress.Company"/>
+      - unexpected value "hidden"
+

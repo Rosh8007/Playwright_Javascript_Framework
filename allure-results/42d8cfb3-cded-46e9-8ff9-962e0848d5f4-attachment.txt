@@ -1,0 +1,6 @@
+[2025-06-01 10:14:53] [INFO]: LoginPage Testing started
+[2025-06-01 10:14:56] [INFO]: Url assertion passed succesfully
+[2025-06-01 10:14:56] [INFO]: Assertion on login btn passed
+[2025-06-01 10:14:56] [INFO]: Assertion Passed on username
+[2025-06-01 10:14:56] [INFO]: Assertion Passed on password
+[2025-06-01 10:14:56] [INFO]: Assertion on login btn passed

@@ -1,0 +1,14 @@
+{
+   "username":"mymailtesting@gmail.com",
+   "url":"https://demowebshop.tricentis.com/",
+   "password":"123456789",
+    "company": "Acme Corp",
+    "address1": "123 Main Street",
+    "address2": "Suite 400",
+    "city":"Pune",
+    "zip": "560001",
+    "phone": "9876543210",
+    "fax": "0123456789",
+    "state":"Maharastra",
+    "fmsg":"Your order has been successfully processed!"
+}

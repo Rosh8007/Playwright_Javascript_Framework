@@ -1,0 +1,36 @@
+[2025-06-01 12:04:25] [INFO]: LoginPage Testing started
+[2025-06-01 12:04:27] [INFO]: Url assertion passed succesfully
+[2025-06-01 12:04:28] [INFO]: Assertion on login btn passed
+[2025-06-01 12:04:28] [INFO]: Assertion Passed on username
+[2025-06-01 12:04:28] [INFO]: Assertion Passed on password
+[2025-06-01 12:04:28] [INFO]: Assertion on login btn passed
+[2025-06-01 12:04:29] [INFO]: LoginPage Testing started
+[2025-06-01 12:04:29] [INFO]: Products Testing started
+[2025-06-01 12:04:29] [WARN]: Element is not editable
+            Simple Computer
+        Error: expect.toBeEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - expect.toBeEditable with timeout 5000ms
+  - waiting for locator('xpath=(//h2[@class=\'product-title\'])[6]')
+
+[2025-06-01 12:04:29] [INFO]: Assertion on Add to productlink  Successfuly passed
+[2025-06-01 12:04:30] [INFO]: Assertion on processor are Successfuly passed
+[2025-06-01 12:04:30] [INFO]: Assertion on Add tocart  Successfuly passed
+[2025-06-01 12:04:31] [WARN]: Element is not editable
+                    Shopping cart
+                    (1)
+                Error: expect.toBeEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - expect.toBeEditable with timeout 5000ms
+  - waiting for locator('//li[@id=\'topcartlink\']//a[@href=\'/cart\']')
+
+[2025-06-01 12:04:31] [INFO]: Assertion on shopping cart Successfuly passed
+[2025-06-01 12:04:32] [INFO]: Assertion on zip code Successfuly passed
+[2025-06-01 12:04:32] [INFO]: Assertion on tos box Successfuly passed
+[2025-06-01 12:04:33] [INFO]: Products Testing Ended
+[2025-06-01 12:04:33] [INFO]: Checkout Testing started
+[2025-06-01 12:04:33] [INFO]: Assertions on Checkout Address Page started
+[2025-06-01 12:04:34] [INFO]: Assertions on Checkout Address Page ended
+
+                Your order has been successfully processed!
+            
